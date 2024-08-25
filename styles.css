@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f0f0;
+
+  height: 100vh;
+  .container {
+    .top-nav-bar {
+      width: 100%;
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+      padding: 5px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+      }
+    }
+    .main {
+      margin-top: 75px;
+      .pos-item {
+        background-color: #fff;
+        width: 200px;
+        padding: 1rem;
+      }
+      .sticky {
+        position: sticky;
+        top: 4rem;
+      }
+      .absolute {
+        position: absolute;
+        right: 1rem;
+        top: 50vh;
+      }
+      .fixed-bottom {
+        position: fixed;
+        bottom: 1rem;
+        right: 0;
+      }
+    }
+  }
+}
