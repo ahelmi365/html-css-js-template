@@ -51,7 +51,7 @@ body {
         top: 50vh;
       }
       .fixed-bottom {
-        position: absolute;
+        position: fixed;
         bottom: 1rem;
         right: 0;
       }
