@@ -6,58 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="test.css">
+<script type="module" src="./test.js"></script>
 
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-
-        }
-
-        .container {
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: 150px 1fr;
-            grid-template-rows: 50px 1fr 50px;
-            height: 97vh;
-        }
-
-        .header {
-            grid-column: 1/3;
-            grid-row: 1/2;
-            border: 1px solid gray;
-        }
-
-        .left-side-bar {
-            grid-column: 1/2;
-            grid-row: 2/4;
-            border: 1px solid gray;
-        }
-
-        .main-content {
-            border: 1px solid gray;
-            grid-column: 2/3;
-            grid-row: 2/3;
-
-        }
-        .footer{
-            grid-column: 2;
-            grid-row: 3;
-            border: 1px solid gray;
-        }
-    </style>
+   
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">top nav bar</div>
-        <div class="left-side-bar">left sidebar</div>
-        <div class="main-content">main content
+    <div class="container expanded">
+
+        <div class="header p-5rem">top nav bar</div>
+        <div class="left-side-bar p-5rem">
+            <div>
+                left
+            </div>
+
+            <div class="control-btn flex-row-center collapse-btn" id="control-btn"><<</div>
+        </div>
+        <div class="main-content p-5rem">main content
 
         </div>
-        <div class="footer">footer</div>
+        <div class="footer p-5rem">
+            <div>footer</div>
+
+        </div>
 
 
     </div>
+  
 </body>
 
 </html>
