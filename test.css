@@ -91,7 +91,7 @@ body {
   }
   .left-side-bar {
     .control-btn {
-      display: block;
+      display: flex;
     }
   }
 }
