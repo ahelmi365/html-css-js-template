@@ -1,5 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 * {
   border-radius: 0.5rem;
@@ -16,7 +19,7 @@ body {
   grid-template-rows: 50px 50px auto 50px;
   grid-template-columns: 1fr;
   /* grid-template-rows: 50px 1fr 50px; */
-  height: 97vh;
+  height: calc(100vh - 32px);
   width: 100%;
 }
 
