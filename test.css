@@ -51,10 +51,17 @@ body {
 }
 
 .main-content {
+  padding: 1rem;
   border: 1px solid gray;
   /* grid-column: 2/3; */
   /* grid-row: 2/3; */
   grid-area: main;
+
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
@@ -70,10 +77,16 @@ body {
   align-items: center;
 }
 
-.p-5rem {
+.p-05rem {
   padding: 0.5rem;
 }
 
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  padding: 0.5rem;
+}
 @media screen and (min-width: 900px) {
   .container {
     grid-template-areas:
