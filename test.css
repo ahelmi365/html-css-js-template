@@ -41,6 +41,7 @@ body {
 
   .control-btn {
     display: none;
+    outline: none;
     border: 1px solid gray;
     border-radius: 50%;
     width: 30px;
